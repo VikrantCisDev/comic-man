@@ -1,14 +1,16 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+@import url('../css/bootstrap.min.css');
 
 
 
 /* Common Css */
 
 :root {
-    --red: #D44F49;
+    --purple: #434CF4;
     --white: #FFFFFF;
-    --black: #000000;
+    --black: #1c1c1c;
     --grey: #505050;
     --grey2: #5D5D5D;
     --grey3: #292929;
@@ -47,9 +49,9 @@ body {
 
 .custom-container {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1460px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 12px;
 }
 
 
