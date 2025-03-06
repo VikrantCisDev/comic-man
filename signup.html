@@ -12,7 +12,7 @@
     <link href="./css/login.css" rel="stylesheet">
 
 
-    <title>:: Login ::</title>
+    <title>:: SignUp ::</title>
 </head>
 
 <body>
@@ -28,18 +28,22 @@
                         <div class="logo mb-4">
                             <img src="./images/logo.svg" alt="why scientific comic" class="img-fluid">
                         </div>
-                        <h1>Welcome</h1>
-                        <p>We are glad to see you back with us</p>
+                        <h1>SignUp</h1>
+                        <p>Welcome to Scientific Comic - Let’s Create account </p>
                     </div>
                     <div class="commonForm-form">
                         <form>
                             <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="John Smith">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
                                 <label class="form-label">Username</label>
                                 <div class="input-group">
                                     <input type="email" class="form-control" placeholder="Johnsmith1001@gmail.com">
-                                    <span class="input-group-text">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
                                 </div>
                             </div>
 
@@ -57,29 +61,15 @@
                             <div class="form-check">
                                 <div class="inpCheckWrap">
                                     <input type="checkbox" class="form-check-input" id="remember">
-                                    <label class="form-check-label" for="remember">Remember me</label>
+                                    <label class="form-check-label" for="remember">I agree to the <a href="#" class="text-decoration-underline linkColor1 fw-bold">Privacy Policy.</a></label>
                                 </div>
-                                <a href="#" class="forgot-password text-decoration-underline linkColor2">Forgot password?</a>
                             </div>
 
                             <button type="submit" class="btn btn-login text-white">Continue</button>
 
-                            <div class="divider">
-                                <span>or Login Using</span>
+                            <div class="register-link">
+                                Already have an account? <a href="#" class="text-decoration-underline linkColor1">Log in</a>
                             </div>
-
-                            <div class="social-login">
-                                <button type="button" class="btn btn-social">
-                                    <img src="./images/google.svg" alt="google" class="img-fluid">
-                                </button>
-                                <button type="button" class="btn btn-social">
-                                    <img src="./images/apple.svg" alt="google" class="img-fluid">
-                                </button>
-                            </div>
-
-                            <!-- <div class="register-link">
-                                Don't have an account? <a href="#" class="text-decoration-none">Register now</a>
-                            </div> -->
                         </form>
                     </div>
                 </div>

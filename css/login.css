@@ -1,8 +1,21 @@
-.login-body{
-    background-color: #fff;
+
+.linkColor1{
+    color:#5248DD;
+}
+.linkColor2{
+    color: #4F58D8;
 }
 
-.loginWrapper{
+.commonForm-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 20px;
+}
+
+.commonFormWrapper{
     width: 100%;
     max-width: 1280px;
     margin: auto;
@@ -11,32 +24,29 @@
     overflow: hidden;
 }
 
-.loginWrapper>.row{
-    align-items: center;
-}
-.login-left{
+.commonForm-left{
     background-color: #F2F3FF;
     padding: 59px 39px 24px;
 }
-.login-right{
+.commonForm-right{
     padding: 64px 48px ;
 }
 .formtop{
     margin-bottom: 32px;
 }
+.formtop h1{
+    font-size: 45px;
+    font-weight: 700;
+}
 
 /* form css  */
 
-.form-control {
+
+.commonFormWrapper .commonForm-form .form-control {
     padding: 12px 15px;
     border-radius: 10px;
     border: 2px solid #eee;
     transition: all 0.3s ease;
-}
-
-.form-control:focus {
-    border-color: #0062cc;
-    box-shadow: none;
 }
 
 .input-group-text {
@@ -56,7 +66,7 @@
 
 .btn-login {
     padding: 12px 20px;
-    background: linear-gradient(135deg, #0062cc, #0096ff);
+    background: #434CF4;
     border: none;
     border-radius: 10px;
     font-weight: 500;
@@ -72,7 +82,8 @@
 .social-login {
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 24px;
+    justify-content: center;
 }
 
 .btn-social {
@@ -82,6 +93,7 @@
     border: 2px solid #eee;
     background: white;
     transition: all 0.3s ease;
+    max-width: fit-content;
 }
 
 .btn-social:hover {
@@ -95,7 +107,7 @@
 
 .divider {
     text-align: center;
-    margin: 20px 0;
+    margin: 24px 0 ;
     position: relative;
 }
 
@@ -104,26 +116,29 @@
     position: absolute;
     left: 0;
     top: 50%;
-    width: 45%;
-    height: 1px;
-    background: #eee;
-}
-
-.divider::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 45%;
-    height: 1px;
-    background: #eee;
+    width: 100%;
+    height: 2px;
+    background: #C7C7CC80;
 }
 
 .divider span {
     background: white;
-    padding: 0 10px;
+    padding: 0 16px;
     color: #666;
     font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
+}
+
+.commonForm-form label {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.commonForm-form input::placeholder{
+    color: #B0B0B0;
+    font-size: 16px;
 }
 
 .form-check {
@@ -131,8 +146,19 @@
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
+    padding: 0;
 }
 
+.inpCheckWrap{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.inpCheckWrap .form-check-input,
+.inpCheckWrap .form-check-label{
+    float: none;
+    margin: 0;
+}
 .password-toggle {
     cursor: pointer;
 }
@@ -141,4 +167,28 @@
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
+}
+.inpCheckWrap input:checked {
+    box-shadow: none;
+    position: relative;
+    background-color: #4F58D8;
+    border-color: #4F58D8;
+}
+.inpCheckWrap input:checked::before {
+    content: "";
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border: 1px solid #4F58D8;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    border-radius: 4px;
+}
+.form-check-input:focus {
+    border-color: #4F58D8;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(79, 88, 216, 0.25);
+}
+.forgotPassWrap .formtop h1{
+    margin-top: 75px;
 }
