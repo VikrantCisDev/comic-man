@@ -1,0 +1,203 @@
+
+
+
+
+
+/* Common Css */
+
+:root {
+    --red: #D44F49;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #505050;
+    --grey2: #5D5D5D;
+    --grey3: #292929;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: var(--black);
+    background: #F2F2F2;
+}
+
+.custom-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-21 {
+    font-size: 21px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* Common Css */
+
+
+/* Header Css */
+
+.header button.navbar-toggler {
+    border: none;
+}
+
+.header button.navbar-toggler .navbar-toggler-icon {
+    filter: invert(1);
+    background-image: url(../images/toggle.svg);
+    width: 25px;
+    height: 25px;
+}
+
+.header button.navbar-toggler .navbar-toggler-icon:focus-visible {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.top-bar {
+    background-color: var(--red);
+    padding: 8px 0;
+}
+
+ul.top-nav-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.top-nav-list li {
+    list-style: none;
+}
+
+ul.top-nav-list li a {
+    color: var(--white);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+.main-header .custom-container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul.navbar-nav li a {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+header ul.navbar-nav li a:hover {
+    color: var(--red);
+}
+
+.main-header nav.navbar {
+    padding: 20px 0;
+}
+
+.header .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    margin: 0;
+}
+
+.header .social-icons img {
+    width: 14px;
+    height: 14px;
+}
+
+.header .navbar-nav {
+    gap: 32px;
+}
+
+.header .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.header .rightWrapper {
+    align-items: center;
+    gap: 24px;
+    margin-left: 24px;
+}
+
+.search img {
+    vertical-align: middle;
+}
+
+/* Header Css */
+

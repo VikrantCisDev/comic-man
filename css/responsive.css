@@ -1,0 +1,263 @@
+@media(max-width: 1600px) {
+    .mw-240 {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .ftr-links-wrapper {
+        min-width: unset;
+    }
+}
+
+@media(max-width: 1399px){
+    .header .rightWrapper {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    .gridpost .title-box {
+        bottom: 10px;
+        width: 90%;
+    }
+    .trendingPosts-wrapper .font-16 {
+        font-size: 14px;
+    }
+    .font-21 {
+        font-size: 18px;
+    }
+    .font-18 {
+        font-size: 16px;
+    }
+    .font-32 {
+        font-size: 22px;
+    }
+    .font-20 {
+        font-size: 16px;
+    }
+    .trendingBottom {
+        padding: 10px 20px 20px;
+    }
+    .concert-wrapper .sec-top {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .concert-wrapper .searchBar {
+        max-width: 50%;
+    }
+    .socialIcons-wrapper img {
+        width: 100%;
+        max-width: 38px;
+    }
+    .concert-wrapper .title-wrapper .btn-nostyle {
+        font-size: 16px;
+    }
+    .festival-desc {
+        min-height: 150px;
+    }
+
+}
+
+
+
+@media(max-width: 1199px){
+    .postgrid-main>div {
+        width: calc(50% - 3px);
+    }
+    .postgrid-main>div:first-child{
+        width: 100%;
+    }
+    
+    .recentPosts {
+        padding: 0;
+    }
+    .font-32 {
+        font-size: 18px;
+    }
+    .recentPosts-wrapper .postcard .post-img{
+        height: 100%;
+    }
+    .recentPosts-wrapper .postcard .post-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .trendingPosts-wrapper .postcard>div {
+        width: 100%;
+    }
+    .trendingPosts-wrapper {
+        padding: 30px 16px 16px;
+    }
+    .trendingPosts-wrapper .postcard {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .btn-nostyle {
+        font-size: 16px;
+    }
+    .socialIcons-wrapper img {
+        max-width: 28px;
+    }
+    .trendingBottom {
+        padding: 0px 20px 20px;
+    }
+    .lined-heading {
+        font-size: 16px;
+        padding-top: 24px;
+        padding-bottom: 18px;
+    }
+    .recent-posts-sec {
+        padding: 30px 0;
+    }
+    .mb_40 {
+        margin-bottom: 30px;
+    }
+    .custom-container {
+        padding: 0 30px;
+    }
+    .newsletter {
+        width: 100%;
+    }
+    .ftr-right {
+        max-width: 100%;
+    }
+    .ftr-mid {
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 991px){
+    .trendingPosts {
+        padding-left: 0;
+        position: static;
+        margin-top: 30px;
+    }
+    .first-gridpost{
+        max-height: 500px;
+    }
+    .trendingPosts-wrapper {
+        padding: 50px 16px;
+        display: grid;
+        gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }
+    .allcard-wrapper {
+        padding: 30px 0;
+        gap: 30px 15px;
+        grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    }
+    
+    .ft-row {
+        padding: 35px 0;
+    }
+    .concert-wrapper .sec-top {
+        align-items: start;
+    }
+
+    
+    .concert-wrapper .searchBar {
+        max-width: 100%;
+    }
+    .mw-240 {
+        max-width: 100px;
+        flex: 1;
+    }
+
+    .ftr-left {
+        max-width: 260px;
+    }
+
+    .ftr-copyright {
+        flex-wrap: wrap;
+    }
+
+    .ftr-copyright p {
+        flex: 100%;
+        text-align: center;
+    }
+    .custom-container {
+        padding: 0 15px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .header .rightWrapper {
+        margin-right: 0;
+        gap: 15px;
+    }
+    .header .social-icons {
+        justify-content: center;
+        gap: 10px;margin-top: 3px;
+    }
+    .header .lightBtn {
+        font-size: 14px;
+        padding: 5px 14px;
+        height: 30px;
+    }
+    .header button.navbar-toggler .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .main-header nav.navbar {
+        padding: 10px 0;
+    }
+    .main-header a.navbar-brand {
+        max-width: 140px;
+    }
+
+    .ftr-left {
+        max-width: 260px;
+    }
+    
+    .ftr-mid {
+        flex: 0 100%;
+        padding: 20px 0;
+    }
+    
+    .ftr-left {
+        width: 100%;
+    }
+
+    .ftr-copyright {
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+
+    .ftr-copyright p,.ftr-copyright a {
+        font-size: 12px;
+    }
+
+    .postgrid-main>div {
+        width: 100%;
+    }
+    .trendingPosts-wrapper {
+        padding: 50px 16px;
+        display: grid;
+        gap: 0;
+        row-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }
+    .sec-top {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ftr-social-icons ul {
+        gap: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+@media (max-width: 575px){
+    .ftr-left {
+        width: 100%;
+        margin: auto;
+    }
+    ul.top-nav-list li a {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .p-24 {
+        padding: 15px;
+    }
+}
