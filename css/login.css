@@ -1,4 +1,31 @@
+.login-body{
+    background-color: #fff;
+}
 
+.loginWrapper{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.loginWrapper>.row{
+    align-items: center;
+}
+.login-left{
+    background-color: #F2F3FF;
+    padding: 59px 39px 24px;
+}
+.login-right{
+    padding: 64px 48px ;
+}
+.formtop{
+    margin-bottom: 32px;
+}
+
+/* form css  */
 
 .form-control {
     padding: 12px 15px;
