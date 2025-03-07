@@ -95,7 +95,6 @@
     padding: 12px;
     border-radius: 10px;
     border: 2px solid #eee;
-    background: white;
     transition: all 0.3s ease;
     max-width: fit-content;
 }
@@ -196,3 +195,5 @@
 .forgotPassWrap .formtop h1{
     margin-top: 75px;
 }
+
+
